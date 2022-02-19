@@ -1,0 +1,30 @@
+:root {
+    --body-background: #0e0e0e;
+    --color-logo: #ff5b50;
+    --card-color: #252525;
+    --text-color: #fff;
+    --subtitle-color: #5a5757;
+    --black-text: #000;
+    --color-input: #0D0D0D;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#firstsection { 
+    background-image: url("../assets/background.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 30px 10%;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--text-color);
+    background: var(--body-background);
+}
+
+
