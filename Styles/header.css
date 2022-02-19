@@ -1,4 +1,4 @@
-@import url("../Styles/style.css");
+@import url("../Styles/colors.css");
 
 header {
     display: flex;
@@ -46,6 +46,7 @@ button {
     align-items: center;
     font-size: 16px;
     font-weight: 700;
+    border: none;
     cursor: pointer;
     opacity: 0.9;
 }
