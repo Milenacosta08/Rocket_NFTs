@@ -18,10 +18,14 @@
         <link rel="stylesheet" href="./Styles/header.css">
         <link rel="stylesheet" href="./Styles/slider_image.css">
         <link rel="stylesheet" href="./Styles/banner.css">
+        <link rel="stylesheet" href="./Styles/statistics.css">
 
         <!-- SLIDER OWL CAROUSEL CSS-->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <!-- AOS LIBRARY-->
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     </head>
 
@@ -107,11 +111,86 @@
 
         <main>
 
+            <!-- SEÇÃO DAS ESTATÍSTICAS E APRESENTAÇÃO -->
+            <section id="secondsection">
+                <div class="statics">
+                    <div data-aos="zoom-out-down">
+                        <div class="info">
+                            <p>10K+</p>
+                            <p class="categoria">Artes</p>
+                        </div>
+                    </div>
+
+                    <div data-aos="zoom-out-down" data-aos-delay="400">
+                        <div class="info">
+                            <p>200K+</p>
+                            <p class="categoria">Vendas</p>
+                        </div>
+                    </div>
+   
+                    <div data-aos="zoom-out-down" data-aos-delay="800">
+                        <div class="info">
+                            <p>10K+</p>
+                            <p class="categoria">Artistas</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="apresentation">
+                    <div id="colunas">
+                        <div class="colum">
+                            <div class="item">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim earum est explicabo necessitatibus impedit neque ut magnam <a href="#">facere perferendis</a>, suscipit officia voluptatem? Dolorum quasi quisquam fuga, optio eaque temporibus itaque.</p>
+                            </div>
+
+                            <div class="item">
+                                <div class="dropdown">
+                                    <span>Lorem ipsum</span>
+
+                                    <div class="dropdown-content">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim earum est explicabo necessitatibus impedit neque ut magnam <a href="#">facere perferendis</a>, suscipit officia voluptatem? Dolorum quasi quisquam fuga, optio eaque temporibus itaque.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="colum">
+                            <div class="item">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim earum est explicabo necessitatibus impedit neque ut magnam <a href="#">facere perferendis</a>, suscipit officia voluptatem? Dolorum quasi quisquam fuga, optio eaque temporibus itaque.</p>
+                            </div>
+                            
+                            <div class="item">
+                                <div class="dropdown">
+                                    <span>Lorem ipsum</span>
+
+                                    <div class="dropdown-content">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim earum est explicabo necessitatibus impedit neque ut magnam <a href="#">facere perferendis</a>, suscipit officia voluptatem? Dolorum quasi quisquam fuga, optio eaque temporibus itaque.</p>
+                                    </div>
+                                </div>          
+                            </div>
+                        </div>    
+                    </div>
+
+                    <div id="imagem-banner">
+                        <div data-aos="flip-left"
+                        data-aos-easing="ease-out-cubic"
+                        data-aos-duration="2000">
+                            <img src="./assets/banner.png" alt="Imagem do banner">
+                        </div>
+                    </div>        
+                </div>
+            </section>
         </main>
 
         <!-- IMPORTAÇÃO DO SLIDER.JS E DOS ARQUIVOS JS DO JQUERY E OWL CAROUSEL (Pode deixar no fim do arquivo)-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
         <script type="text/javascript" src="./slider.js"></script>
+
+         <!-- IMPORTAÇÃO DO USO DO AOS LIBRARY-->
+         <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+         <script>
+             AOS.init();
+         </script>
     </body>
 </html>
