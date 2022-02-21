@@ -24,6 +24,9 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+        <!-- AOS LIBRARY-->
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     </head>
 
     <body>
@@ -114,20 +117,22 @@
 
             <div id="popular-of-the-week">
                 <div>
-                    <div class="card-left">
-                        <div class="content">
-                            <h2 class="title">Astronauta 1</h2>
-                            <img src="./assets/arrow-white.svg" alt="Imagem seta diagonal">
-                        </div>
-                        <div class="content">
-                            <p class="subtitle" >Mayk Brito</p>
-                            <p class="redName">1.50 RKT</p>
-                        </div>
-                        <div>
-                            <img class="astronauta" src="./assets/astronauta 1.png" alt="Imagem do Astronauta 1">
+                    <div class="card-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                        <div class="card" data-aos="fade-right">
+                            <div class="content">
+                                <h2 class="title">Astronauta 1</h2>
+                                <img src="./assets/arrow-white.svg" alt="Imagem seta diagonal">
+                            </div>
+                            <div class="content">
+                                <p class="subtitle" >Mayk Brito</p>
+                                <p class="redName">1.50 RKT</p>
+                            </div>
+                            <div>
+                                <img class="astronauta" src="./assets/astronauta 1.png" alt="Imagem do Astronauta 1">
+                            </div>
                         </div>
 
-                        <div class="card">
+                        <div class="card"  data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
                             <div class="content">
                                 <h2 class="title">Astronauta 3</h2>
                                 <img src="./assets/arrow-white.svg" alt="Imagem seta diagonal">
@@ -143,23 +148,26 @@
                     </div>
                 </div>
 
-                <div id="line"></div>
+                <div id="line" data-aos="fade-up" data-aos-offset="300"
+                data-aos-easing="ease-in-sine"></div>
 
                 <div>
                     <div class="card-right">
-                        <div class="content">
-                            <h2 class="title">Astronauta 2</h2>
-                            <img src="./assets/arrow-white.svg" alt="Imagem seta diagonal">
-                        </div>
-                        <div class="content">
-                            <p class="subtitle">Jackeliny Gracielly</p>
-                            <p class="redName">2.00 RKT</p>
-                        </div>
-                        <div>
-                            <img src="./assets/astronauta-2.png" alt="Imagem do Astronauta 2">
+                        <div class="card" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                            <div class="content">
+                                <h2 class="title">Astronauta 2</h2>
+                                <img src="./assets/arrow-white.svg" alt="Imagem seta diagonal">
+                            </div>
+                            <div class="content">
+                                <p class="subtitle">Jackeliny Gracielly</p>
+                                <p class="redName">2.00 RKT</p>
+                            </div>
+                            <div>
+                                <img src="./assets/astronauta-2.png" alt="Imagem do Astronauta 2">
+                            </div>
                         </div>
 
-                        <div class="card">
+                        <div class="card" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
                             <div class="content">
                                 <h2 class="title">Astronauta 4</h2>
                                 <img src="./assets/arrow-white.svg" alt="Imagem seta diagonal">
@@ -181,5 +189,10 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
         <script type="text/javascript" src="./slider.js"></script>
+        <!-- IMPORTAÇÃO DO USO DO AOS LIBRARY-->
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
     </body>
 </html>
