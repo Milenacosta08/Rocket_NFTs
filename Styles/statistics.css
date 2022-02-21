@@ -91,12 +91,12 @@
 
 /* RESPOSIVIDADE ================== */
 @media (max-width: 800px) {
-    #secondsection {
+    #secondSection {
         display: flex;
         flex-direction: column;
     }
 
-    #secondsection .statics {
+    #secondSection .statics {
         align-items: center;
         border-bottom: 2px solid rgba(134, 132, 132, 0.5);
         border-right: none;
