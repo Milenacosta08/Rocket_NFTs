@@ -38,6 +38,11 @@
     color: var(--subtitle-color);
 }
 
+.seta-arrow-right {
+    width: 50px;
+    height: 40px;
+}
+
 @media (max-width: 1000px) {
     
     #popular-of-the-week {
