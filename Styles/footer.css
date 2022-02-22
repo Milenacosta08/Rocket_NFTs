@@ -1,0 +1,115 @@
+footer {
+    background-color: var(--card-color);
+    
+}
+
+/* HEADER DO FOOTER ================ */
+footer #header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 40px 15%;
+
+    border-bottom: 1px solid rgba(134, 132, 132, 0.5);
+}
+
+footer img {
+    width: 12rem;
+}
+
+footer #header a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--color-logo);
+
+    width: 3rem;
+    height: 3rem;
+}
+
+footer #voltar {
+    color: var(--black-text);
+    width: 2rem;
+}
+
+/* MAIN DO FOOTER ================ */
+footer #main {
+    display: flex;
+    gap: 1rem;
+    
+    padding: 0px 15%;
+    border-bottom: 1px solid white;
+}
+
+footer #main #novidades {
+    padding-top: 4rem;
+}
+
+footer #main #novidades h1 {
+    width: 20rem;
+    margin-bottom: 1rem;
+}
+
+footer #main #novidades h1 span {
+    color: var(--color-logo);
+}
+
+footer #main #novidades form {
+    display: flex;
+    gap: .1rem;
+}
+
+footer #main #novidades input {
+    height: 2.3rem;
+    border: none;
+    text-align: center;
+
+    background-color: var(--color-input);
+    color: var(--text-color);
+}
+
+footer #main #novidades button {
+    width: 5rem;
+    height: 2.3rem;
+    text-align: center;
+    
+    border: none;
+    border-radius: .15rem;
+}
+
+footer #main .line {
+    border: 1px solid rgba(134, 132, 132, 0.5);
+    height: 17rem;
+}
+
+footer #main #informacoes {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+
+    margin-left: 5rem;
+    padding-top: 4rem;
+}
+
+footer #main #informacoes p {
+    margin-top: 1rem;
+    
+    color: var(--subtitle-color);
+    opacity: 0.8;
+
+    cursor: pointer;
+}
+
+footer #main #informacoes p:hover {
+    color: var(--text-color);
+    opacity: 1;
+}
+
+footer #main #informacoes .title {
+    color: var(--text-color);
+    font-weight: bold;
+    opacity: 1;
+    cursor: auto;
+}
