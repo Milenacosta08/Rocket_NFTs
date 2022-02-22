@@ -348,8 +348,9 @@
                 <div id="novidades">
                     <h1>Fique por dentro de <span>todas as novidades</span></h1>
 
-                    <form action="">
-                        <input type="mail" placeholder="nft@rocketseat.com.br">
+                    <form action="" onsubmit="Form.submit(event)">
+                        <label for="email" class="sr-only">Email</label>
+                        <input id="email" name="email" type="email" title="Serão aceitos emails de qualquer domínio que contenha @ e .com" placeholder="nft@rocketseat.com.br">
                         <button type="submit">Enviar</button>
                     </form>
                 </div>
@@ -402,5 +403,8 @@
         <script>
             feather.replace()
         </script>
+
+        <!-- VALIDAÇÃO DO EMAIL / FOOTER -->
+        <script src="./footer.js"></script>
     </body>
 </html>
