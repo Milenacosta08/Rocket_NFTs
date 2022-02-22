@@ -155,3 +155,41 @@ footer .icons-social:hover {
     opacity: 1;
     color: #fff;
 }
+
+@media (max-width: 1000px) {
+    footer #main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        padding: 0px 0px;
+    }
+
+    footer #main .line {
+        border: none;
+        height: 0;
+    }
+
+    footer #main #novidades h1 {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    
+    footer #main #novidades form {
+        justify-content: center;
+    }
+
+    footer #main #informacoes {
+        margin-left: 0;
+        padding-top: 0;
+        margin-bottom: 2rem;
+    }
+}
+
+@media (max-width: 400px) {
+    footer #main #informacoes {
+        flex-direction: column;
+        gap: 2rem;
+    }
+}
