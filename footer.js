@@ -12,6 +12,7 @@ Form = {
 
         else {
             alert('Email enviado com sucesso!')
+            email.value = ""
         }
         
     },
